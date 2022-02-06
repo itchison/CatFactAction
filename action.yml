@@ -1,0 +1,8 @@
+name: 'Cat Fact'
+description: 'Creates a cat fact'
+outputs:
+  fact: # fact
+    description: 'The Cat Fact'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
