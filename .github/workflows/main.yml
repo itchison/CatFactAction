@@ -1,0 +1,9 @@
+on: [pull_request]
+jobs:
+  catfact:
+    runs-on: ubuntu-latest
+    name: Adds a cat fact
+    steps:
+     - uses: actions/checkout@master
+     - name: catfact
+       uses: itchison/CatFactAction:latest
