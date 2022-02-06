@@ -7,10 +7,11 @@ jobs:
      - uses: actions/checkout@main
 
      - name: catfact
+       id: catfact
        uses: itchison/CatFactAction@main
 
      - name: Comment PR
        uses: thollander/actions-comment-pull-request@v1        
        with:
-         message: 'Example of message  !'
+         message: steps.catfact.outputs.fact
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
