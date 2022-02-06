@@ -1,5 +1,9 @@
-name: 'Cat Fact'
+name: cat-fact
 description: 'Creates a cat fact'
+author: Jason Aitchison
+branding:
+  icon: 'thumbs-up'
+  color: 'white'
 outputs:
   fact: # fact
     description: 'The Cat Fact'
