@@ -6,4 +6,4 @@ jobs:
     steps:
      - uses: actions/checkout@main
      - name: catfact
-       uses: itchison/CatFactAction
+       uses: itchison/CatFactAction/action@main
