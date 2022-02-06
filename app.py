@@ -6,9 +6,9 @@ with open("catfacts/catfacts.txt") as f:
 
 # Build the model.
 text_model = markovify.Text(text)
-#fact=text_model.make_sentence()
-fact = "test"
+fact=text_model.make_sentence()
 pre="::set-output name=fact::"
 print(fact)
 output=pre + fact
 print(output)
+print("done")
