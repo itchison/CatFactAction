@@ -1,4 +1,4 @@
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   catfact:
     runs-on: ubuntu-latest
@@ -10,5 +10,5 @@ jobs:
      - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1        
         with:
-          message: catfact.fact
+          message: 'Example of message !'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
