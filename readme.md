@@ -22,3 +22,4 @@ jobs:
          message: ${{ steps.catfact.outputs.fact }}
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+When creating this I was preoccupied with where or not I could, that I didnt stop to think if I should.
