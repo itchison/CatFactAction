@@ -4,6 +4,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Adds a cat fact
     steps:
-     - uses: actions/checkout@master
+     - uses: actions/checkout@main
      - name: catfact
        uses: itchison/CatFactAction@latest
